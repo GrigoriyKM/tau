@@ -1,0 +1,11 @@
+sinin = sinin20;
+sinout = sinout20;
+plot2d(sinin.time, sinin.values, 1);
+plot2d(sinout.time, sinout.values,2);
+title "w = 5";
+title fontsize 5;
+xlabel "t [сек]";
+xlabel fontsize 5;
+ylabel "y(t)";
+ylabel fontsize 5;
+xgrid;
